@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+
+
+body {
+    display: flexbox;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: 54px;
+    background-color: #ff7675;
+    color: #FFFFFF;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.lienMenu {
+    color: #FFFFFF
+}
+
+.iconeMenu {
+    width: 16px;
+    height: 14px;
+    margin: 20px;
+    padding: 4px;
+
+}
+
+.Menu {
+    width: 24px;
+    height: 24;
+    padding-right: 16px;
+    margin-right: 20px;
+    margin-bottom: 9px;
+}
+
+.parametres {
+    width: 94px;
+    height: 21px;
+    padding-right: 225px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.09px;
+
+}
+
+.adressEmail {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 28px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 28.13px;
+    font-weight: 700px;
+    font-size: 24px;
+
+
+
+}
+
+.wrapper .adressEmail {
+    font-weight: bolder;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    left: 13px;
+}
+
+
+
+.adresseEmailActuelle {
+    display: flex;
+    flex-direction: column;
+    left: 13px;
+    margin-bottom: 32px;
+    line-height: 16.41px;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+label,
+button {
+
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+
+
+    font-weight: bold;
+    font-size: 16px;
+    color: #222222;
+    line-height: 18.75px;
+}
+
+.labelParametres {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+input,
+button {
+    display: flex;
+    box-sizing: border-box
+}
+
+input {
+
+    margin-bottom: 16px;
+    margin-top: 8px;
+    width: 350px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+button {
+
+    width: 350px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #ff7675;
+    border: #ff7675;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    border-radius: 4px;
+
+}
+
+.vide {
+    height: 24px;
+}
+
+::placeholder {
+    padding-left: 16px;
+}
+
+.containBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre {
+    width: 7px;
+    height: 14px;
+    margin: 20px;
+    padding: 4px;
+}
+
+h1 {
+    font-weight: 700;
+    width: 300px;
+    height: 25px
+}

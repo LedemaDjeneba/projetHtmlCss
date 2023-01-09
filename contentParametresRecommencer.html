@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contentParametresRecommencerContent.css" />
+
+    <script src="https://kit.fontawesome.com/f5ccf45eb3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&family=Caveat&family=Montserrat:wght@100&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+
+
+    <title>Page6_Parametres</title>
+</head>
+
+
+<div class="topBar">
+    <div class="Menu">
+        <div class="iconeMenu">
+            <a class="lienMenu" href="ouwnList"> <i class="fa-solid fa-bars"></i></a>
+        </div>
+    </div>
+    <div class="parametres">
+        <p>Paramètres</p>
+    </div>
+</div>
+
+<div class="wrapper">
+
+    <div class="adressEmail">
+        <h3>Adresse e-mail</h3>
+    </div>
+
+    <div class="adresseEmailActuelle">
+        Adresse e-mail
+        actuelle:AsmaDjenebaSophie@AS.com
+    </div>
+    <section>
+
+
+        <!--section nouvelle adresse email-->
+        <form action="" method="post">
+
+
+
+            <div class="labelParametres"><label for="email">Nouvelle adresse e-mail</label>
+            </div>
+            <div class="inputParametres">
+                <input id="email" name="email" placeholder="mail@provider.fr" type="email" required />
+            </div>
+
+
+            <div class="labelParametres">
+                <label for="confirmEmail">Confirmer l'adresse e-mail</label>
+            </div>
+
+            <div class="inputParametres">
+                <input id="confirmEmail" name="email" placeholder="mail@provider.fr" type="email" required />
+            </div>
+
+            <button id="button" type=" submit">Modifier l'adresse e-mail</button>
+
+        </form>
+    </section>
+
+    <div class="vide"></div>
+    <!--section formulaire nouveau mot de passe-->
+    <section>
+
+        <div class="adressEmail">
+            <h3>Mot de Passe</h3>
+        </div>
+
+
+
+        <form action="" method="post">
+
+            <div class="labelParametres">
+                <label for="pass">Mot de Passe actuel </label>
+            </div>
+            <div class="inputParametres">
+                <input type="password" id="pass" name="password" placeholder="password" minlength="8" required>
+            </div>
+
+
+            <div class="labelParametres">
+                <label for="newpass">Nouveau mot de passe</label>
+            </div>
+            <div class="inputParametres">
+                <input type="password" id="newMdp" name="password" placeholder="password" minlength="8" required>
+            </div>
+
+            <div class="labelParametres">
+                <label for="confirmMdp">Confirmer le Mot de Passe </label>
+            </div>
+            <div class="inputParametres">
+                <input type="password" id="confirmMdp" name="password" placeholder="password" minlength="8" required>
+            </div>
+
+
+
+
+            <button id="button2" type=" submit">Modifier le mot de passe</button>
+
+
+
+
+
+
+
+
+        </form>
+    </section>
+
+
+
+
+
+</div>
+
+<script src="contentParametresRecommencer.js"></script>
+
+<body>
+
+</body>
+
+</html>
